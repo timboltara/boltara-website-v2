@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S839MMF9QD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-S839MMF9QD');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service. Boltara Scaling</title>
+    <meta name="description" content="The terms governing your use of Boltara Scaling's website and services.">
+    <link rel="icon" type="image/png" href="/boltara-logo-white.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --serif: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --mono: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+            --ink: #0B0B0B;
+            --concrete: #6B6B6B;
+            --ash: #B0B0B0;
+            --bone: #F5F2EC;
+            --paper: #FFFFFF;
+            --ember: #C8500F;
+            --rule: rgba(255,255,255,0.08);
+            --rule-dark: rgba(11,11,11,0.10);
+            --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: var(--sans);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--ink);
+            background: var(--paper);
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: inherit; text-decoration: none; }
+        ::selection { background: var(--ember); color: var(--paper); }
+
+        .nav {
+            background: var(--ink);
+            border-bottom: 1px solid var(--rule);
+        }
+        .nav-inner {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 18px clamp(24px, 5vw, 96px);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--bone);
+        }
+        .nav-logo-img { height: 52px; width: auto; display: block; }
+        .nav-wordmark {
+            font-family: var(--serif);
+            font-weight: 600;
+            font-size: 22px;
+            letter-spacing: -0.02em;
+        }
+        .nav-back {
+            font-family: var(--mono);
+            font-size: 12px;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--ash);
+            transition: color 200ms var(--ease);
+        }
+        .nav-back:hover { color: var(--ember); }
+
+        .content {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 96px clamp(24px, 5vw, 48px) 120px;
+        }
+        .eyebrow {
+            font-family: var(--mono);
+            font-size: 11px;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--concrete);
+            margin-bottom: 18px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .eyebrow::before {
+            content: '';
+            width: 24px;
+            height: 1px;
+            background: var(--ember);
+        }
+        h1 {
+            font-family: var(--serif);
+            font-weight: 300;
+            font-size: clamp(40px, 5.5vw, 72px);
+            line-height: 1.05;
+            letter-spacing: -0.04em;
+            color: var(--ink);
+            margin-bottom: 16px;
+        }
+        .updated {
+            font-family: var(--mono);
+            font-size: 13px;
+            color: var(--concrete);
+            margin-bottom: 56px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--rule-dark);
+        }
+        h2 {
+            font-family: var(--serif);
+            font-weight: 500;
+            font-size: 22px;
+            letter-spacing: -0.015em;
+            color: var(--ink);
+            margin-top: 48px;
+            margin-bottom: 16px;
+        }
+        h2 .num {
+            font-family: var(--mono);
+            font-size: 12px;
+            letter-spacing: 0.14em;
+            color: var(--concrete);
+            margin-right: 12px;
+            font-weight: 400;
+        }
+        p {
+            color: #2a2a2a;
+            margin-bottom: 18px;
+        }
+        ul {
+            margin: 0 0 20px 4px;
+            padding: 0;
+            list-style: none;
+        }
+        li {
+            color: #2a2a2a;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.7em;
+            width: 8px;
+            height: 1px;
+            background: var(--ember);
+        }
+        strong { font-weight: 600; color: var(--ink); }
+        a.link {
+            color: var(--ember);
+            border-bottom: 1px solid transparent;
+            transition: border-color 200ms var(--ease);
+        }
+        a.link:hover { border-bottom-color: var(--ember); }
+
+        .contact-block {
+            margin-top: 48px;
+            padding: 32px;
+            background: var(--bone);
+            border-radius: 4px;
+            font-family: var(--mono);
+            font-size: 14px;
+            line-height: 1.8;
+        }
+        .contact-block strong {
+            display: block;
+            font-family: var(--serif);
+            font-weight: 500;
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+        .back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 64px;
+            font-family: var(--mono);
+            font-size: 13px;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--ink);
+            border-bottom: 1px solid var(--ink);
+            padding-bottom: 4px;
+            transition: color 200ms var(--ease), border-color 200ms var(--ease);
+        }
+        .back:hover { color: var(--ember); border-bottom-color: var(--ember); }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-brand">
+                <img src="/boltara-logo-white.png" alt="Boltara" class="nav-logo-img" width="1024" height="1024" onerror="this.style.display='none'">
+                <span class="nav-wordmark">Boltara Scaling</span>
+            </a>
+            <a href="/" class="nav-back">&larr; Home</a>
+        </div>
+    </nav>
+
+    <main class="content">
+        <p class="eyebrow">Legal</p>
+        <h1>Terms of Service.</h1>
+        <p class="updated">Last updated: April 9, 2026</p>
+
+        <p>Welcome to Boltara Scaling ("we," "our," or "us"). These Terms and Conditions ("Terms") govern your use of our website boltarascaling.com, products, and services.</p>
+        <p>By accessing or using our website, you agree to be bound by these Terms. If you do not agree, please do not use our website or services.</p>
+
+        <h2><span class="num">01</span>Use of Our Website and Services</h2>
+        <p>You agree to use our website and services only for lawful purposes and in accordance with these Terms. You are responsible for ensuring that your use complies with all applicable laws and regulations.</p>
+        <p>You must not:</p>
+        <ul>
+            <li>Attempt to gain unauthorized access to our systems or networks</li>
+            <li>Use our content or materials for commercial purposes without written permission</li>
+            <li>Upload or transmit viruses, spam, or malicious code</li>
+        </ul>
+
+        <h2><span class="num">02</span>Accounts and Purchases</h2>
+        <p>When you create an account or make a purchase, you agree to provide accurate, complete, and up-to-date information. You are responsible for maintaining the confidentiality of your account and password.</p>
+        <p>We reserve the right to refuse or cancel any order at any time for reasons including suspected fraud, unauthorized use, or product/service availability.</p>
+
+        <h2><span class="num">03</span>Payment and Refund Policy</h2>
+        <p>All payments must be made in full at the time of purchase unless otherwise stated. If you fail to pay for services rendered, we reserve the right to suspend or terminate access to your account or services.</p>
+
+        <h2><span class="num">04</span>Intellectual Property</h2>
+        <p>All content on this website, including text, graphics, logos, videos, and software, is the property of Boltara Scaling or its licensors and is protected by copyright and trademark laws.</p>
+        <p>You may not reproduce, distribute, or modify any materials from our website without our express written consent.</p>
+
+        <h2><span class="num">05</span>Disclaimer of Warranties</h2>
+        <p>Our website and services are provided "as is" and "as available." We make no warranties, express or implied, regarding the operation of the website, accuracy of information, or suitability for a particular purpose.</p>
+
+        <h2><span class="num">06</span>Limitation of Liability</h2>
+        <p>To the fullest extent permitted by law, Boltara Scaling and its affiliates shall not be liable for any indirect, incidental, consequential, or punitive damages arising out of your use or inability to use our website or services.</p>
+        <p>Our total liability for any claim shall not exceed the amount you paid to us, if any, for the services in question.</p>
+
+        <h2><span class="num">07</span>Indemnification</h2>
+        <p>You agree to indemnify and hold harmless Boltara Scaling, its officers, employees, and partners from any claims, damages, or expenses (including legal fees) arising from your use of our website or violation of these Terms.</p>
+
+        <h2><span class="num">08</span>Third-Party Links</h2>
+        <p>Our website may contain links to external websites not operated by us. We are not responsible for the content or privacy practices of these third-party sites.</p>
+
+        <h2><span class="num">09</span>Termination</h2>
+        <p>We may suspend or terminate your access to our website or services at any time, without notice, if we believe you have violated these Terms or engaged in fraudulent activity.</p>
+
+        <h2><span class="num">10</span>Governing Law</h2>
+        <p>These Terms shall be governed by and interpreted in accordance with the laws of the State of Missouri, without regard to conflict of law principles.</p>
+
+        <h2><span class="num">11</span>SMS Terms &amp; Conditions</h2>
+        <p>By providing your phone number and opting in through our website, you agree to receive recurring automated marketing and informational text messages from Boltara Scaling LLC. These messages may include appointment confirmations, reminders, promotional offers, customer service notifications, and business updates.</p>
+        <p>Message frequency may vary. Message and data rates may apply.</p>
+        <p>You may opt out at any time by replying STOP to any message. For assistance, reply HELP or contact us at <a class="link" href="mailto:tim@boltarascaling.com">tim@boltarascaling.com</a>.</p>
+        <p>Mobile carriers are not liable for delayed or undelivered messages. You must be at least 18 years old to opt in to receive SMS communications.</p>
+
+        <h2><span class="num">12</span>Changes to These Terms</h2>
+        <p>We may update or modify these Terms from time to time. Updates will be posted on this page with the "Last updated" date. Your continued use of our website signifies acceptance of the revised Terms.</p>
+
+        <h2><span class="num">13</span>Contact Us</h2>
+        <p>If you have questions about these Terms, contact us at:</p>
+        <div class="contact-block">
+            <strong>Boltara Scaling LLC</strong>
+            <a class="link" href="mailto:tim@boltarascaling.com">tim@boltarascaling.com</a><br>
+            <a class="link" href="tel:+18164276342">(816) 427-6342</a>
+        </div>
+
+        <a href="/" class="back">&larr; Back to Home</a>
+    </main>
+</body>
+</html>

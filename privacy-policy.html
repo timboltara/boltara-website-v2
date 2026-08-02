@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-S839MMF9QD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-S839MMF9QD');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy. Boltara Scaling</title>
+    <meta name="description" content="How Boltara Scaling collects, uses, and protects your personal information.">
+    <link rel="icon" type="image/png" href="/boltara-logo-white.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --serif: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --mono: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+            --ink: #0B0B0B;
+            --concrete: #6B6B6B;
+            --ash: #B0B0B0;
+            --bone: #F5F2EC;
+            --paper: #FFFFFF;
+            --ember: #C8500F;
+            --rule: rgba(255,255,255,0.08);
+            --rule-dark: rgba(11,11,11,0.10);
+            --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: var(--sans);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--ink);
+            background: var(--paper);
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: inherit; text-decoration: none; }
+        ::selection { background: var(--ember); color: var(--paper); }
+
+        .nav {
+            background: var(--ink);
+            border-bottom: 1px solid var(--rule);
+        }
+        .nav-inner {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 18px clamp(24px, 5vw, 96px);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--bone);
+        }
+        .nav-logo-img { height: 52px; width: auto; display: block; }
+        .nav-wordmark {
+            font-family: var(--serif);
+            font-weight: 600;
+            font-size: 22px;
+            letter-spacing: -0.02em;
+        }
+        .nav-back {
+            font-family: var(--mono);
+            font-size: 12px;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--ash);
+            transition: color 200ms var(--ease);
+        }
+        .nav-back:hover { color: var(--ember); }
+
+        .content {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 96px clamp(24px, 5vw, 48px) 120px;
+        }
+        .eyebrow {
+            font-family: var(--mono);
+            font-size: 11px;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: var(--concrete);
+            margin-bottom: 18px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .eyebrow::before {
+            content: '';
+            width: 24px;
+            height: 1px;
+            background: var(--ember);
+        }
+        h1 {
+            font-family: var(--serif);
+            font-weight: 300;
+            font-size: clamp(40px, 5.5vw, 72px);
+            line-height: 1.05;
+            letter-spacing: -0.04em;
+            color: var(--ink);
+            margin-bottom: 16px;
+        }
+        .updated {
+            font-family: var(--mono);
+            font-size: 13px;
+            color: var(--concrete);
+            margin-bottom: 56px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--rule-dark);
+        }
+        h2 {
+            font-family: var(--serif);
+            font-weight: 500;
+            font-size: 22px;
+            letter-spacing: -0.015em;
+            color: var(--ink);
+            margin-top: 48px;
+            margin-bottom: 16px;
+        }
+        h2 .num {
+            font-family: var(--mono);
+            font-size: 12px;
+            letter-spacing: 0.14em;
+            color: var(--concrete);
+            margin-right: 12px;
+            font-weight: 400;
+        }
+        p {
+            color: #2a2a2a;
+            margin-bottom: 18px;
+        }
+        ul {
+            margin: 0 0 20px 4px;
+            padding: 0;
+            list-style: none;
+        }
+        li {
+            color: #2a2a2a;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0.7em;
+            width: 8px;
+            height: 1px;
+            background: var(--ember);
+        }
+        strong { font-weight: 600; color: var(--ink); }
+        a.link {
+            color: var(--ember);
+            border-bottom: 1px solid transparent;
+            transition: border-color 200ms var(--ease);
+        }
+        a.link:hover { border-bottom-color: var(--ember); }
+
+        .contact-block {
+            margin-top: 48px;
+            padding: 32px;
+            background: var(--bone);
+            border-radius: 4px;
+            font-family: var(--mono);
+            font-size: 14px;
+            line-height: 1.8;
+        }
+        .contact-block strong {
+            display: block;
+            font-family: var(--serif);
+            font-weight: 500;
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+        .back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 64px;
+            font-family: var(--mono);
+            font-size: 13px;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--ink);
+            border-bottom: 1px solid var(--ink);
+            padding-bottom: 4px;
+            transition: color 200ms var(--ease), border-color 200ms var(--ease);
+        }
+        .back:hover { color: var(--ember); border-bottom-color: var(--ember); }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="/" class="nav-brand">
+                <img src="/boltara-logo-white.png" alt="Boltara" class="nav-logo-img" width="1024" height="1024" onerror="this.style.display='none'">
+                <span class="nav-wordmark">Boltara Scaling</span>
+            </a>
+            <a href="/" class="nav-back">&larr; Home</a>
+        </div>
+    </nav>
+
+    <main class="content">
+        <p class="eyebrow">Legal</p>
+        <h1>Privacy Policy.</h1>
+        <p class="updated">Last updated: April 9, 2026</p>
+
+        <p>Welcome to Boltara Scaling LLC ("we," "our," or "us"). Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website boltarascaling.com, use our services, or interact with us in any other way.</p>
+        <p>By using our website or services, you agree to the terms of this Privacy Policy.</p>
+
+        <h2><span class="num">01</span>Information We Collect</h2>
+        <p>We may collect the following types of information:</p>
+        <ul>
+            <li><strong>Personal Information.</strong> Name, email address, phone number, billing information, or other details you provide when making a purchase or filling out a form.</li>
+            <li><strong>Usage Data.</strong> Information about how you access and use our website, such as IP address, browser type, device information, and pages visited.</li>
+            <li><strong>Cookies and Tracking.</strong> We use cookies, pixels, and similar tracking technologies to improve your experience and analyze website traffic.</li>
+        </ul>
+
+        <h2><span class="num">02</span>How We Use Your Information</h2>
+        <p>We use the information we collect to:</p>
+        <ul>
+            <li>Provide, operate, and improve our products and services</li>
+            <li>Process payments and complete transactions</li>
+            <li>Communicate with you about updates, offers, or support</li>
+            <li>Analyze usage to enhance site performance and marketing</li>
+            <li>Comply with legal obligations</li>
+        </ul>
+
+        <h2><span class="num">03</span>How We Share Your Information</h2>
+        <p>We do not sell your personal data. However, we may share it with:</p>
+        <ul>
+            <li><strong>Service Providers.</strong> Third-party vendors who help us operate our business (e.g., payment processors, email marketing platforms).</li>
+            <li><strong>Legal Compliance.</strong> When required by law, or to protect our rights, property, or safety.</li>
+            <li><strong>Business Transfers.</strong> In case of a merger, acquisition, or sale of assets.</li>
+        </ul>
+
+        <h2><span class="num">04</span>Data Security</h2>
+        <p>We take appropriate measures to protect your information against unauthorized access, alteration, disclosure, or destruction.</p>
+        <p>However, no system is completely secure, and we cannot guarantee absolute security.</p>
+
+        <h2><span class="num">05</span>Your Rights and Choices</h2>
+        <p>You have the right to:</p>
+        <ul>
+            <li>Access, update, or delete your personal information</li>
+            <li>Opt out of marketing communications</li>
+            <li>Disable cookies in your browser settings</li>
+        </ul>
+        <p>To exercise these rights, contact us at <a class="link" href="mailto:tim@boltarascaling.com">tim@boltarascaling.com</a>.</p>
+
+        <h2><span class="num">06</span>Retention of Data</h2>
+        <p>We retain personal data only as long as necessary to fulfill the purposes outlined in this policy or as required by law.</p>
+
+        <h2><span class="num">07</span>Links to Other Websites</h2>
+        <p>Our website may contain links to third-party sites. We are not responsible for the privacy practices or content of those sites.</p>
+
+        <h2><span class="num">08</span>SMS Communication</h2>
+        <p>If you provide your phone number through our website forms, you may receive text messages from Boltara Scaling related to appointment reminders, service updates, marketing promotions, and customer support communications.</p>
+        <p>Message frequency may vary. Message and data rates may apply. You may opt out at any time by replying STOP to any message. You may reply HELP for assistance.</p>
+        <p>We do not sell, rent, or share your mobile phone number or SMS opt-in data with third parties for marketing purposes. Your mobile information will only be used for the specific purposes outlined at the time of consent.</p>
+
+        <h2><span class="num">09</span>Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Updates will be posted on this page with a new "Last updated" date.</p>
+
+        <h2><span class="num">10</span>Contact Us</h2>
+        <p>If you have questions or concerns about this Privacy Policy, contact us at:</p>
+        <div class="contact-block">
+            <strong>Boltara Scaling LLC</strong>
+            <a class="link" href="mailto:tim@boltarascaling.com">tim@boltarascaling.com</a><br>
+            <a class="link" href="tel:+18164276342">(816) 427-6342</a>
+        </div>
+
+        <a href="/" class="back">&larr; Back to Home</a>
+    </main>
+</body>
+</html>
