@@ -8,12 +8,30 @@
       gtag('js', new Date());
       gtag('config', 'G-S839MMF9QD');
     </script>
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '908991621963475');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=908991621963475&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- STAGING ONLY: remove this line before deploying to boltarascaling.com -->
     <meta name="robots" content="noindex, nofollow">
     <title>Boltara Scaling. Real Results for Service Businesses. Meta Ads, Booked On Autopilot</title>
-    <meta name="description" content="We bring service businesses paying jobs, not just leads. Real clients, real return on ad spend, booked straight to your calendar. See the numbers, then book a call.">
+    <meta name="description" content="Meta ads and follow-up for local service businesses. We run the ads, work the leads, and book qualified appointments to your calendar. See our client results, then book a call.">
     <meta property="og:title" content="Boltara Scaling. Real Results for Service Businesses">
     <meta property="og:description" content="A 5.68x average return on ad spend across our clients. Ads, follow-up, nurture, booked appointments. Built end-to-end for service businesses.">
     <meta property="og:type" content="website">
@@ -37,7 +55,6 @@
       "logo": "https://boltarascaling.com/boltara-logo-white.png",
       "image": "https://boltarascaling.com/boltara-logo-banner.png",
       "description": "End-to-end client acquisition for local service businesses. Ads, follow-up, nurture, booked appointments.",
-      "telephone": "+1-816-427-6342",
       "email": "tim@boltarascaling.com",
       "areaServed": { "@type": "Country", "name": "United States" },
       "knowsAbout": [
@@ -47,7 +64,7 @@
         "Client acquisition systems for contractors"
       ],
       "sameAs": [
-        "https://instagram.com/boltarascaling"
+        "https://www.linkedin.com/company/boltara-scaling/"
       ]
     }
     </script>
@@ -223,20 +240,20 @@
             position: relative;
             z-index: 2;
             width: 100%;
-            padding-top: 140px;
-            padding-bottom: 88px;
+            padding-top: 100px;
+            padding-bottom: 56px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 56px;
+            gap: 24px;
         }
         .hero-copy {
             width: 100%;
-            max-width: 1020px;
+            max-width: 1180px;
             text-align: center;
         }
-        .hero-copy .hero-headline { margin-bottom: 32px; }
-        .hero-copy .hero-sub { max-width: 620px; margin-left: auto; margin-right: auto; margin-bottom: 0; }
+        .hero-copy .hero-headline { margin-bottom: 16px; }
+        .hero-copy .hero-sub { max-width: 660px; margin-left: auto; margin-right: auto; margin-bottom: 0; }
         @media (max-width: 720px) {
             .hero .hero-content { padding-top: 116px; padding-bottom: 64px; gap: 40px; }
         }
@@ -260,7 +277,7 @@
         .hero-headline {
             font-family: var(--serif);
             font-weight: 300;
-            font-size: clamp(36px, 5.4vw, 80px);
+            font-size: clamp(29px, 3.7vw, 54px);
             line-height: 0.98;
             letter-spacing: -0.045em;
             color: var(--bone);
@@ -349,38 +366,8 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 40px;
+            gap: 20px;
         }
-        .hero-stats {
-            display: flex;
-            gap: 56px;
-            flex-wrap: wrap;
-            justify-content: center;
-            text-align: center;
-            opacity: 0;
-            transform: translateY(12px);
-            transition: opacity 800ms var(--ease) 800ms, transform 800ms var(--ease) 800ms;
-        }
-        .hero-stats.is-visible { opacity: 1; transform: translateY(0); }
-        .hero-spec-label {
-            font-family: var(--mono);
-            font-size: 10px;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            color: var(--concrete);
-            margin-bottom: 4px;
-        }
-        .hero-spec-value {
-            font-family: var(--serif);
-            font-weight: 500;
-            font-size: 22px;
-            color: var(--bone);
-            letter-spacing: -0.015em;
-        }
-        @media (max-width: 720px) {
-            .hero-stats { gap: 28px 40px; }
-        }
-
         .hero-meta {
             position: absolute;
             bottom: 32px;
@@ -557,8 +544,7 @@
             align-items: center;
             justify-content: center;
             aspect-ratio: 16 / 9;
-            width: 100%;
-            max-width: 900px;
+            width: min(1180px, 100%);
             margin: 0 auto;
             background: var(--graphite);
             border-radius: 8px;
@@ -620,7 +606,16 @@
         .svc {
             display: flex;
             flex-direction: column;
-            gap: 24px;
+            gap: 20px;
+            padding: 20px;
+            border: 1px solid var(--ink);
+            border-radius: 6px;
+            background: transparent;
+            transition: border-color 250ms var(--ease), transform 250ms var(--ease);
+        }
+        .svc:hover {
+            border-color: var(--ember);
+            transform: translateY(-3px);
         }
         .svc-copy { display: flex; flex-direction: column; gap: 10px; }
         .svc-num {
@@ -890,10 +885,14 @@
         }
         .book-frame {
             background: var(--bone);
-            border-radius: 4px;
-            padding: 24px;
-            min-height: 720px;
+            border-radius: 6px;
+            padding: 12px;
+            max-width: 1040px;
+            margin: 0 auto;
+            min-height: 0;
             position: relative;
+            /* clearance for the fixed nav when CTAs jump straight here */
+            scroll-margin-top: 96px;
         }
         .book-frame iframe {
             width: 100%;
@@ -1082,7 +1081,7 @@
             <li><a href="#system">How It Works</a></li>
             <li><a href="#process">Process</a></li>
             <li><a href="#faq">FAQ</a></li>
-            <li><a href="#book" class="nav-cta">Book a Call</a></li>
+            <li><a href="#calendar" class="nav-cta">Book a Call</a></li>
         </ul>
     </div>
 </nav>
@@ -1095,18 +1094,30 @@
     <div class="frame hero-content">
         <div class="hero-copy">
             <h1 class="hero-headline" id="heroHeadline">
-                <span class="crop"><span>A 5.68x return</span></span>
-                <span class="crop"><span>on ad spend. <em>For real</em></span></span>
-                <span class="crop"><span>service businesses.</span></span>
+                <span class="crop"><span>A 5.68x return on ad spend.</span></span>
+                <span class="crop"><span><em>For real service businesses.</em></span></span>
             </h1>
 
             <p class="hero-sub">
-                We bring service businesses paying jobs, not just leads. We run the ads, handle the follow-up, and book qualified appointments straight to your calendar.
+                We run the ads, handle the follow-up, and book qualified appointments straight to your calendar. You quote the job and close it.
             </p>
         </div>
 
         <div class="hero-vsl-wrap" id="vsl">
-            <a class="vsl-frame reveal" href="#book" aria-label="Watch how it works, then book a call">
+            <!-- ============================================================
+                 VSL SLOT — Vidalytics
+
+                 When the VSL is ready:
+                 1. Delete the placeholder link below (class "vsl-frame").
+                 2. Replace it with a div of class "vsl-frame reveal" and put
+                    the Vidalytics embed snippet inside that div.
+                 3. In the Vidalytics dashboard, turn ON "Autoplay" and
+                    "Start Muted". Browsers block autoplay with sound, so
+                    muted is required or the video will not start.
+                 4. The vsl-frame wrapper is already locked to 16:9 and
+                    centered, so the player will size itself correctly.
+                 ============================================================ -->
+            <a class="vsl-frame reveal" href="#calendar" aria-label="Watch how it works, then book a call">
                 <div class="vsl-play">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
                 </div>
@@ -1114,23 +1125,12 @@
             </a>
 
             <div class="hero-actions">
-                <a href="#book" class="cta-primary">
+                <a href="#calendar" class="cta-primary">
                     Book a Call
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </a>
-                <p class="cta-microcopy">For service business owners doing $10k+/month who are ready to fill their calendar</p>
             </div>
 
-            <div class="hero-stats" aria-label="Results snapshot">
-                <div>
-                    <div class="hero-spec-label">Avg. return on ad spend</div>
-                    <div class="hero-spec-value">5.68x</div>
-                </div>
-                <div>
-                    <div class="hero-spec-label">Who we work with</div>
-                    <div class="hero-spec-value">Local service businesses</div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
@@ -1158,7 +1158,7 @@
         </div>
 
         <div class="section-cta reveal">
-            <a href="#book" class="cta-primary">
+            <a href="#calendar" class="cta-primary">
                 Book a Call
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
@@ -1170,7 +1170,7 @@
 <section class="sec sec-light" id="system">
     <div class="frame">
         <h2 class="case-name reveal" style="max-width: 880px; margin-bottom: 56px; color: var(--ink);">
-            One pipeline. <em>Three stages.</em><br>Cold lead in, paying jobs out.
+            One pipeline. <em>Three stages.</em><br>From first click to booked estimate.
         </h2>
 
         <div class="svc-list">
@@ -1230,7 +1230,7 @@
         </div>
 
         <div class="section-cta reveal">
-            <a href="#book" class="cta-primary">
+            <a href="#calendar" class="cta-primary">
                 Book a Call
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
@@ -1274,7 +1274,7 @@
         </div>
 
         <div class="section-cta reveal">
-            <a href="#book" class="cta-primary">
+            <a href="#calendar" class="cta-primary">
                 Book a Call
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
@@ -1386,7 +1386,7 @@
             <div class="book-prequal-col">
                 <h4>This is a fit if you</h4>
                 <ul>
-                    <li>Run a local service business doing $10k+/month</li>
+                    <li>Run an established local service business</li>
                     <li>Can handle more jobs than you're getting right now</li>
                     <li>Are ready to invest in ad spend, not looking for free leads</li>
                     <li>Want a predictable calendar instead of referral roulette</li>
@@ -1403,7 +1403,7 @@
             </div>
         </div>
 
-        <div class="book-frame reveal">
+        <div class="book-frame reveal" id="calendar">
             <div class="calendly-inline-widget" data-url="https://calendly.com/d/dvrw-bjd-wj8" style="min-width:320px;height:700px;"></div>
             <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
         </div>
@@ -1431,19 +1431,18 @@
                 <a href="#system">How It Works</a>
                 <a href="#process">Process</a>
                 <a href="#faq">FAQ</a>
-                <a href="#book">Book a Call</a>
+                <a href="#calendar">Book a Call</a>
             </div>
             <div class="footer-col">
                 <h4>Contact</h4>
-                <a href="tel:+18164276342">(816) 427-6342</a>
                 <a href="mailto:tim@boltarascaling.com">tim@boltarascaling.com</a>
-                <a href="https://instagram.com/boltarascaling" target="_blank" rel="noopener" class="social-link">
+                <a href="https://www.linkedin.com/company/boltara-scaling/" target="_blank" rel="noopener" class="social-link">
                     <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
                     </svg>
-                    <span>@boltarascaling</span>
+                    <span>LinkedIn</span>
                 </a>
             </div>
             <div class="footer-col">
@@ -1454,11 +1453,11 @@
         </div>
         <div class="footer-bottom">
             <span>© 2026 Boltara Scaling LLC</span>
-            <a href="https://instagram.com/boltarascaling" target="_blank" rel="noopener" class="footer-bottom-social" aria-label="Instagram">
+            <a href="https://www.linkedin.com/company/boltara-scaling/" target="_blank" rel="noopener" class="footer-bottom-social" aria-label="LinkedIn">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
                 </svg>
             </a>
         </div>
@@ -1585,14 +1584,12 @@ import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.m
             heroHeadline.classList.add('is-visible');
         });
     }
-    ['.hero-actions', '.hero-stats'].forEach((sel) => {
-        const el = document.querySelector(sel);
-        if (el) {
-            requestAnimationFrame(() => {
-                el.classList.add('is-visible');
-            });
-        }
-    });
+    const heroActions = document.querySelector('.hero-actions');
+    if (heroActions) {
+        requestAnimationFrame(() => {
+            heroActions.classList.add('is-visible');
+        });
+    }
 
     // IntersectionObserver for .reveal elements
     const revealEls = document.querySelectorAll('.reveal');
@@ -1643,6 +1640,53 @@ import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.m
                 target.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
         });
+    });
+})();
+</script>
+
+<!-- ========== META PIXEL EVENT TRACKING ========== -->
+<script>
+(function () {
+    const track = (event, params) => {
+        if (typeof fbq === 'function') fbq('track', event, params || {});
+    };
+    const trackCustom = (event, params) => {
+        if (typeof fbq === 'function') fbq('trackCustom', event, params || {});
+    };
+
+    // Every "Book a Call" button. Custom event so it stays separate from an
+    // actual booking — this is intent, not a conversion.
+    document.querySelectorAll('a[href="#calendar"]').forEach((el) => {
+        el.addEventListener('click', () => {
+            trackCustom('ClickBookCall', {
+                location: el.closest('section')?.id || 'nav'
+            });
+        });
+    });
+
+    // Calendly runs in a cross-origin iframe, so a pixel cannot be injected
+    // into it. Calendly instead posts messages to this page as the user moves
+    // through the flow, which is what we listen for here.
+    const isCalendlyEvent = (e) =>
+        e.origin === 'https://calendly.com' &&
+        e.data &&
+        typeof e.data.event === 'string' &&
+        e.data.event.indexOf('calendly.') === 0;
+
+    window.addEventListener('message', (e) => {
+        if (!isCalendlyEvent(e)) return;
+
+        switch (e.data.event) {
+            case 'calendly.date_and_time_selected':
+                trackCustom('CalendlyTimeSelected');
+                break;
+            case 'calendly.event_scheduled':
+                // The booking actually completed. This is the conversion to
+                // optimize campaigns toward.
+                track('Schedule');
+                track('Lead');
+                break;
+        }
     });
 })();
 </script>
