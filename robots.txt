@@ -1,0 +1,51 @@
+# boltarascaling.com
+# Sandblasting and powder coating marketing agency
+
+User-agent: *
+Allow: /
+
+# Booking confirmation is a conversion page, not content.
+# Keeping it out of the index stops people landing there without booking
+# and keeps it from polluting conversion reporting.
+Disallow: /confirmed-thank-you.html
+Disallow: /confirmed-thank-you
+
+# Answer engines are welcome. A shop owner asking an assistant
+# "who does marketing for sandblasting companies" should find us.
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://boltarascaling.com/sitemap.xml

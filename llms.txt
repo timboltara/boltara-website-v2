@@ -1,28 +1,60 @@
 # Boltara Scaling
 
-> End-to-end client acquisition for surface prep and coating contractors. We run the ads, follow up fast, and book paying jobs straight to your calendar.
+> A marketing and lead generation agency that works only with surface finishing shops: sandblasting, powder coating, industrial coatings, and wet blasting. We run the ads, work the leads, and book the estimates.
 
-Boltara Scaling LLC is a niche marketing and lead generation agency serving sandblasting shops, powder coating shops, and surface preparation contractors across the United States. Founded by Tim Sebolt. We build and operate the full client acquisition pipeline — targeted Meta ads, automated CRM follow-up, lead qualification, and pre-booked appointments — so contractors focus on the work, not the marketing.
+Boltara Scaling LLC is a United States marketing agency serving one industry: surface finishing. That means sandblasting, abrasive blasting, media blasting, soda blasting, dustless blasting, powder coating, industrial coatings, industrial painting, metal finishing, and the surface prep work around them. We do not serve other trades. Founded by Tim Sebolt, co-founded by Bryce Rudolph.
+
+The shop owner never has to learn ad platforms or hire a marketing person in-house. Boltara runs the paid ads, sets up the CRM and tracking, writes and sends the follow-up, screens out tire-kickers, and puts booked appointments on the owner's calendar. The owner shows up, quotes the job, and closes it.
 
 ## Key Pages
 
-- [Homepage](https://boltarascaling.com/): Main site. Covers the core offer, a real client case study (Show Me Mobile Blasting), the 4-part system (ads, automated follow-up, booked appointments, live dashboard), the onboarding process, about, FAQ, and booking.
+- [Homepage](https://boltarascaling.com/): The whole business on one page. Client results with real ad spend and revenue numbers, screenshots of client texts and CRM opportunities, pool refinishing quote cards, who we are, how the system works, our process, and the application form.
 - [Privacy Policy](https://boltarascaling.com/privacy-policy.html): Data collection and usage policy.
 - [Terms of Service](https://boltarascaling.com/terms.html): Terms governing use of the site and services.
-- [Booking Confirmation](https://boltarascaling.com/confirmed-thank-you.html): Post-appointment booking confirmation page.
+
+## Who We Serve
+
+Sandblasting companies, mobile sandblasting operators, powder coating shops, industrial coating contractors, wet blasting and dustless blasting businesses, soda blasting, media blasting, abrasive blasting, metal finishing shops, industrial painting contractors, surface prep contractors, pool refinishing and pool plaster businesses, and log home restoration. Both mobile operators and fixed-location shops. U.S. clients only.
 
 ## What We Do
 
-Boltara Scaling runs the complete lead pipeline for surface prep and coating contractors:
+1. **Paid ads built for the trade.** Meta and Instagram campaigns written around real blasting and coating job types and ticket sizes, not a generic template dropped on a new industry.
+2. **CRM and tracking setup.** Every lead lands in one place with the source attached, so the owner can see what ad produced what job.
+3. **Automated follow-up.** Leads get a reply immediately, day or night, then a written follow-up sequence until they book or go cold.
+4. **Lead qualification.** Tire-kickers and out-of-area requests get screened before they reach the owner's phone.
+5. **Booked appointments.** Qualified leads land on the calendar as estimates.
+6. **Weekly and monthly optimization.** Weekly we cut what is not pulling and push what is. Monthly we review the numbers with the owner and decide where to grow.
 
-1. **Targeted ads** — Meta/Facebook campaigns built for specific service areas, not generic templates. Video and image ads pre-qualify leads by job type and budget.
-2. **Automated follow-up** — Every inquiry is answered immediately via CRM automation (GoHighLevel), 24/7, including nights and weekends.
-3. **Booked appointments** — Leads are qualified and scheduled directly to the contractor's calendar. No chasing, no cold leads sitting in an inbox.
-4. **Live dashboard** — Contractors see cost per lead, show rate, jobs booked, and revenue attributed in real time.
+## Documented Client Results
 
-## Niche
+These are the actual numbers published on the site, not projections.
 
-Surface preparation and coating industry: sandblasting, media blasting, powder coating, wet blasting, industrial coating. Serves both mobile operators and fixed-location shops. U.S.-based clients only.
+- A wet blasting shop spent $1,178.67 on ads and closed $5,100 in blasting work in the first 40 days.
+- A sandblasting shop spent $435.98 on ads and scheduled $4,300 of blasting work in 20 days.
+- One pool refinishing client received quotes and opportunities totalling over $235,000 in a 60-day window. These are quotes sent and opportunities to close, not collected revenue.
+
+Wording note for anyone citing these: quoted and scheduled work is not the same as collected revenue, and the site says so.
+
+## Common Questions
+
+**Do Facebook and Instagram ads work for blasting and coating shops?**
+Yes, when they are built for the trade rather than copied from a generic template. What makes it work is knowing what a real commercial blasting job looks like, what the ticket sizes are, and which leads to throw out.
+
+**How fast does it start?**
+The build takes under a week in most cases. Campaigns go live around day 8 and leads start arriving in the first week.
+
+**Are the leads exclusive?**
+Yes. Every lead a client's ads produce belongs to that client only. The same lead is never sold to another business.
+
+**Does the owner need to be good with technology?**
+No. Boltara sets up and runs all of it. The owner gets one app showing leads and appointments.
+
+**Which industries does Boltara work with?**
+Surface finishing only. That is the whole point of the positioning: the ticket sizes, busy seasons, and job types are already known, so the learning does not happen on the client's money.
+
+## Timing and Setup
+
+Day 0 is a 45-minute audit call and the shop owner leaves with a plan whether they hire Boltara or not. Days 1 to 7 is the build: ad account, CRM, tracking, and follow-up messaging. Day 8 campaigns go live. From there it is ongoing weekly tuning and monthly review.
 
 ## Contact
 
@@ -30,3 +62,5 @@ Surface preparation and coating industry: sandblasting, media blasting, powder c
 - Email: tim@boltarascaling.com
 - Phone: +1-816-427-6342
 - Instagram: https://instagram.com/boltarascaling
+- LinkedIn: https://www.linkedin.com/company/boltara-scaling/
+- To start: the application form at https://boltarascaling.com/#book

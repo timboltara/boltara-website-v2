@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://boltarascaling.com/</loc>
+    <lastmod>2026-09-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://boltarascaling.com/images/results/results-michael.jpg</image:loc>
+      <image:title>Wet blasting shop ad results</image:title>
+      <image:caption>Michael spent $1,178.67 on ads and closed $5,100 in wet blasting work in his first 40 days.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://boltarascaling.com/images/results/results-jeremy.jpg</image:loc>
+      <image:title>Sandblasting shop ad results</image:title>
+      <image:caption>Jeremy spent $435.98 on ads and scheduled $4,300 of sandblasting work.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://boltarascaling.com/images/team/tim-sebolt.jpg</image:loc>
+      <image:title>Tim Sebolt, founder of Boltara Scaling</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://boltarascaling.com/images/team/bryce-rudolph.jpg</image:loc>
+      <image:title>Bryce Rudolph, co-founder of Boltara Scaling</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://boltarascaling.com/privacy-policy.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
+    <loc>https://boltarascaling.com/terms.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+</urlset>
