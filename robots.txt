@@ -3,7 +3,7 @@
 
 # Everything is crawlable on purpose.
 #
-# The booking confirmation page is kept out of search by a
+# The booking confirmation page (/confirmed) is kept out of search by a
 # "noindex, nofollow" meta tag on the page itself, NOT by a Disallow here.
 # Those two do not combine: a Disallow stops the crawler from ever reading
 # the page, so it never sees the noindex, and the URL can still show up in

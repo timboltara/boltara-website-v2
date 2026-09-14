@@ -1,14 +1,18 @@
 {
   "rewrites": [
+    { "source": "/confirmed", "destination": "/confirmed.html" },
     { "source": "/privacy-policy", "destination": "/privacy-policy.html" },
-    { "source": "/terms", "destination": "/terms.html" },
-    { "source": "/confirmed-thank-you", "destination": "/confirmed-thank-you.html" }
+    { "source": "/terms", "destination": "/terms.html" }
   ],
   "redirects": [
     { "source": "/about.html", "destination": "/#why", "permanent": true },
     { "source": "/about", "destination": "/#why", "permanent": true },
     { "source": "/privacy.html", "destination": "/privacy-policy.html", "permanent": true },
-    { "source": "/index.html", "destination": "/", "permanent": true }
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/confirm", "destination": "/confirmed", "permanent": false },
+    { "source": "/confirmed.html", "destination": "/confirmed", "permanent": true },
+    { "source": "/confirmed-thank-you", "destination": "/confirmed", "permanent": true },
+    { "source": "/confirmed-thank-you.html", "destination": "/confirmed", "permanent": true }
   ],
   "headers": [
     {
