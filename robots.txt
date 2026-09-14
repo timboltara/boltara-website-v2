@@ -1,14 +1,17 @@
 # boltarascaling.com
 # Sandblasting and powder coating marketing agency
 
+# Everything is crawlable on purpose.
+#
+# The booking confirmation page is kept out of search by a
+# "noindex, nofollow" meta tag on the page itself, NOT by a Disallow here.
+# Those two do not combine: a Disallow stops the crawler from ever reading
+# the page, so it never sees the noindex, and the URL can still show up in
+# results as a bare link from anywhere that points at it. Allowing the
+# crawl is what lets the noindex actually work.
+
 User-agent: *
 Allow: /
-
-# Booking confirmation is a conversion page, not content.
-# Keeping it out of the index stops people landing there without booking
-# and keeps it from polluting conversion reporting.
-Disallow: /confirmed-thank-you.html
-Disallow: /confirmed-thank-you
 
 # Answer engines are welcome. A shop owner asking an assistant
 # "who does marketing for sandblasting companies" should find us.
